@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 1300px;
+  max-width: 1100px;
   width: 100%;
   margin: 0 auto;
   padding: 0 30px;
@@ -138,7 +138,7 @@ nav ul li a:hover::after {
 }
 .headingBox:hover {
   zoom: 1.01;
-  box-shadow: 2px 2px 20px 10px rgba(87, 87, 87, 0.397);
+  box-shadow: 2px 2px 20px 10px rgb(63 104 53 / 35%);
 }
 
 .heading {
@@ -156,11 +156,6 @@ nav ul li a:hover::after {
   margin-top: 2rem;
 }
 
-.check {
-  height: 100vh;
-  width: 20px;
-  background-color: red;
-}
 .heroMain {
   padding-top: 250px;
   width: 100%;
@@ -175,4 +170,37 @@ nav ul li a:hover::after {
   /* border: 2px solid black; */
   border-radius: 5px;
   transition: all ease-in-out 0.3s;
+}
+
+/* Layout */
+.layout {
+  margin-top: 6rem;
+  color: rgba(255, 255, 255, 0.788);
+}
+.layout h2 {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-bottom: 3rem;
+}
+.layoutContainer {
+  padding: 20px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.788);
+  margin: 2px;
+  border-radius: 4px;
+}
+.layout:hover div:not(:hover) {
+  opacity: 0.7;
+}
+.layoutContainer img {
+  width: 150px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+.layoutContainer h3 {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.788);
+  text-decoration: none;
 }
