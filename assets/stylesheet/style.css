@@ -232,4 +232,13 @@ nav ul li a:hover::after {
 .col-2-about {
   padding: 15px 30px;
   font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.788);
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.788);
+  font-size: 2rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.788);
 }
