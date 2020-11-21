@@ -176,6 +176,8 @@ nav ul li a:hover::after {
 .layout {
   margin-top: 6rem;
   color: rgba(255, 255, 255, 0.788);
+  margin-bottom: 100px;
+  padding-bottom: 80px;
 }
 .layout h2 {
   text-align: center;
@@ -204,4 +206,30 @@ nav ul li a:hover::after {
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.788);
   text-decoration: none;
+}
+
+/* About */
+.about {
+  color: rgba(255, 255, 255, 0.788);
+  margin-bottom: 100px;
+  padding-bottom: 80px;
+}
+.about h2 {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-bottom: 3rem;
+}
+.grid-col-2About {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.col-1-about img {
+  width: 100%;
+  margin: 0 auto;
+}
+.col-2-about {
+  padding: 15px 30px;
+  font-size: 1.8rem;
 }
